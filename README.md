@@ -18,6 +18,12 @@ Contributions are welcome! If you have any ideas for improvements or new feature
 
 If you enjoyed this project and would like to support the cause, please consider making a donation to the real donation site of SANParks. Your contribution will make a difference!
 
+## TODOs
+
+- [ ] Create custom domain with some cool url
+- [ ] Configure the github pages settings to reflect this
+- [ ] Longer Term: play around and add some games etc to make this a fun experimental project
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
