@@ -6,15 +6,6 @@ This project is a fun spoof that aims to entertain users while also promoting a 
 
 The project is a lighthearted and humorous endeavor that brings joy to users. It is not intended for any serious purposes but rather to provide a moment of amusement.  
 
-## Installation
-
-To use this project, simply clone the repository and navigate to the project directory:
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
-```
-
 ## Usage
 
 Once you have the project set up, you just run using the live server extension in VSCode.  
