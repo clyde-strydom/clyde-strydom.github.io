@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #2E7D32;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: nowrap; /* Prevents the images from wrapping onto the next line */
+    justify-content: space-around;
+    overflow-x: auto; /* Adds a scrollbar if the images exceed the width of the page */
+}
+
+#gallery figure {
+    margin: 10px;
+    text-align: center;
+}
+
+#gallery img {
+    max-width: 100%;
+    max-height: 10cm; /* Sets a maximum height for the images */
+    height: auto;
+}
+
+#gallery figcaption {
+    font-size: 0.5em; /* Adjust this value to scale the size of the captions */
+}
+
+#sanparks-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00796B;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#sanparks-link:hover {
+    background-color: #004D40;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.content-footer {
+    margin-top: auto;
+}
+
